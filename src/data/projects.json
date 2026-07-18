@@ -1,0 +1,1353 @@
+[
+  {
+    "slug": "thao-tac-tep-tin-thu-muc",
+    "number": "01",
+    "stage": "Nền tảng số",
+    "title": "Thao tác cơ bản với tệp tin và thư mục",
+    "shortTitle": "Tệp tin & thư mục",
+    "summary": "Thực hành đầy đủ quy trình tạo, đổi tên, sao chép, di chuyển, xóa và khôi phục tệp trên Windows.",
+    "pdf": "/documents/bai-tap-1.pdf",
+    "cover": "/evidence/a1/p03_x13_2064x1652.webp",
+    "tags": [
+      "Windows",
+      "File Explorer",
+      "Quản lý dữ liệu"
+    ],
+    "objective": "Rèn luyện khả năng tổ chức và quản lý dữ liệu cá nhân một cách chính xác, từ thao tác cơ bản đến phân biệt xóa vào Thùng rác và xóa vĩnh viễn.",
+    "sections": [
+      {
+        "id": "quy-trinh",
+        "eyebrow": "Bài làm",
+        "title": "Quy trình thực hành 12 bước",
+        "blocks": [
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Mở File Explorer",
+                "text": "Nhấn tổ hợp Windows + E hoặc chọn biểu tượng thư mục màu vàng trên thanh tác vụ.",
+                "images": [
+                  {
+                    "src": "/evidence/a1/p01_x6_1572x232.webp",
+                    "caption": "Hình 1. Mở File Explorer từ thanh tác vụ.",
+                    "alt": "Hình 1. Mở File Explorer từ thanh tác vụ."
+                  }
+                ]
+              },
+              {
+                "title": "Truy cập ổ đĩa hoặc thư mục",
+                "text": "Trong This PC, chọn ổ đĩa không phải ổ hệ thống. Bài làm sử dụng New Volume (D:).",
+                "images": [
+                  {
+                    "src": "/evidence/a1/p02_x10_868x792.webp",
+                    "caption": "Hình 2. Truy cập ổ New Volume (D:).",
+                    "alt": "Hình 2. Truy cập ổ New Volume (D:)."
+                  }
+                ]
+              },
+              {
+                "title": "Tạo thư mục thực hành",
+                "text": "Nhấp chuột phải vào vùng trống, chọn New → Folder và đặt tên ThucHanh_DaoThiVanAnh.",
+                "images": [
+                  {
+                    "src": "/evidence/a1/p03_x13_2064x1652.webp",
+                    "caption": "Hình 3. Chọn lệnh tạo thư mục mới.",
+                    "alt": "Hình 3. Chọn lệnh tạo thư mục mới."
+                  },
+                  {
+                    "src": "/evidence/a1/p03_x14_1592x232.webp",
+                    "caption": "Hình 4. Đặt tên thư mục ThucHanh_DaoThiVanAnh.",
+                    "alt": "Hình 4. Đặt tên thư mục ThucHanh_DaoThiVanAnh."
+                  },
+                  {
+                    "src": "/evidence/a1/p03_x15_1592x233.webp",
+                    "caption": "Hình 5. Thư mục sau khi được tạo.",
+                    "alt": "Hình 5. Thư mục sau khi được tạo."
+                  }
+                ]
+              },
+              {
+                "title": "Mở thư mục vừa tạo",
+                "text": "Nhấp đúp vào thư mục ThucHanh_DaoThiVanAnh để bắt đầu thao tác bên trong.",
+                "images": [
+                  {
+                    "src": "/evidence/a1/p04_x18_1224x239.webp",
+                    "caption": "Hình 6. Thanh địa chỉ xác nhận vị trí thư mục thực hành.",
+                    "alt": "Hình 6. Thanh địa chỉ xác nhận vị trí thư mục thực hành."
+                  }
+                ]
+              },
+              {
+                "title": "Tạo tệp văn bản GhiChu.txt",
+                "text": "Nhấp chuột phải → New → Text Document, sau đó nhập tên GhiChu.txt.",
+                "images": [
+                  {
+                    "src": "/evidence/a1/p04_x19_684x399.webp",
+                    "caption": "Hình 7. Chọn loại Text Document.",
+                    "alt": "Hình 7. Chọn loại Text Document."
+                  },
+                  {
+                    "src": "/evidence/a1/p04_x20_446x65.webp",
+                    "caption": "Hình 8. Nhập tên GhiChu.txt.",
+                    "alt": "Hình 8. Nhập tên GhiChu.txt."
+                  },
+                  {
+                    "src": "/evidence/a1/p04_x21_467x68.webp",
+                    "caption": "Hình 9. Tệp GhiChu.txt đã được tạo.",
+                    "alt": "Hình 9. Tệp GhiChu.txt đã được tạo."
+                  }
+                ]
+              },
+              {
+                "title": "Đổi tên tệp",
+                "text": "Sử dụng lệnh Rename để đổi GhiChu.txt thành GhiChuQuanTrong.txt.",
+                "images": [
+                  {
+                    "src": "/evidence/a1/p05_x24_1106x848.webp",
+                    "caption": "Hình 10. Thực hiện lệnh Rename.",
+                    "alt": "Hình 10. Thực hiện lệnh Rename."
+                  },
+                  {
+                    "src": "/evidence/a1/p05_x25_362x53.webp",
+                    "caption": "Hình 11. Nhập tên mới.",
+                    "alt": "Hình 11. Nhập tên mới."
+                  },
+                  {
+                    "src": "/evidence/a1/p05_x26_370x76.webp",
+                    "caption": "Hình 12. Tệp sau khi đổi tên.",
+                    "alt": "Hình 12. Tệp sau khi đổi tên."
+                  }
+                ]
+              },
+              {
+                "title": "Tạo thư mục con TaiLieu",
+                "text": "Trong thư mục thực hành, tạo thêm thư mục con mang tên TaiLieu để tổ chức tài liệu.",
+                "images": [
+                  {
+                    "src": "/evidence/a1/p06_x29_664x988.webp",
+                    "caption": "Hình 13. Tạo thư mục con TaiLieu.",
+                    "alt": "Hình 13. Tạo thư mục con TaiLieu."
+                  }
+                ]
+              },
+              {
+                "title": "Sao chép tệp bằng Copy & Paste",
+                "text": "Sao chép GhiChuQuanTrong.txt và dán một bản vào thư mục TaiLieu. Tệp gốc vẫn được giữ nguyên ở vị trí cũ.",
+                "images": [
+                  {
+                    "src": "/evidence/a1/p07_x32_402x58.webp",
+                    "caption": "Hình 14. Thư mục TaiLieu.",
+                    "alt": "Hình 14. Thư mục TaiLieu."
+                  },
+                  {
+                    "src": "/evidence/a1/p07_x33_1080x157.webp",
+                    "caption": "Hình 15. Chọn tệp cần sao chép.",
+                    "alt": "Hình 15. Chọn tệp cần sao chép."
+                  },
+                  {
+                    "src": "/evidence/a1/p07_x34_1080x508.webp",
+                    "caption": "Hình 16. Sử dụng lệnh Copy.",
+                    "alt": "Hình 16. Sử dụng lệnh Copy."
+                  },
+                  {
+                    "src": "/evidence/a1/p07_x35_1036x246.webp",
+                    "caption": "Hình 17. Bản sao xuất hiện trong TaiLieu.",
+                    "alt": "Hình 17. Bản sao xuất hiện trong TaiLieu."
+                  }
+                ]
+              },
+              {
+                "title": "Di chuyển tệp bằng Cut & Paste",
+                "text": "Tạo DiChuyen.txt, dùng Cut rồi Paste vào TaiLieu. Sau thao tác, tệp chỉ còn ở vị trí mới.",
+                "images": [
+                  {
+                    "src": "/evidence/a1/p08_x38_1080x372.webp",
+                    "caption": "Hình 18. Tạo và chọn DiChuyen.txt.",
+                    "alt": "Hình 18. Tạo và chọn DiChuyen.txt."
+                  },
+                  {
+                    "src": "/evidence/a1/p08_x39_1080x425.webp",
+                    "caption": "Hình 19. Di chuyển tệp vào TaiLieu.",
+                    "alt": "Hình 19. Di chuyển tệp vào TaiLieu."
+                  }
+                ]
+              },
+              {
+                "title": "Xóa tệp vào Thùng rác",
+                "text": "Chọn GhiChuQuanTrong.txt trong TaiLieu và dùng Delete để chuyển tệp vào Recycle Bin.",
+                "images": [
+                  {
+                    "src": "/evidence/a1/p09_x42_1080x407.webp",
+                    "caption": "Hình 20. Chọn tệp trong TaiLieu.",
+                    "alt": "Hình 20. Chọn tệp trong TaiLieu."
+                  },
+                  {
+                    "src": "/evidence/a1/p09_x43_1080x364.webp",
+                    "caption": "Hình 21. Thực hiện lệnh Delete.",
+                    "alt": "Hình 21. Thực hiện lệnh Delete."
+                  },
+                  {
+                    "src": "/evidence/a1/p09_x44_1080x330.webp",
+                    "caption": "Hình 22. Kết quả sau khi xóa.",
+                    "alt": "Hình 22. Kết quả sau khi xóa."
+                  }
+                ]
+              },
+              {
+                "title": "Xóa vĩnh viễn",
+                "text": "Chọn DiChuyen.txt, nhấn Shift + Delete và xác nhận cảnh báo để xóa không qua Thùng rác.",
+                "images": [
+                  {
+                    "src": "/evidence/a1/p10_x47_1080x491.webp",
+                    "caption": "Hình 23. Tệp trong Recycle Bin.",
+                    "alt": "Hình 23. Tệp trong Recycle Bin."
+                  },
+                  {
+                    "src": "/evidence/a1/p10_x48_1080x628.webp",
+                    "caption": "Hình 24. Hộp thoại xác nhận xóa vĩnh viễn.",
+                    "alt": "Hình 24. Hộp thoại xác nhận xóa vĩnh viễn."
+                  }
+                ]
+              },
+              {
+                "title": "Khôi phục từ Thùng rác",
+                "text": "Mở Recycle Bin, chọn GhiChuQuanTrong.txt và nhấn Restore. Tệp được trả về vị trí ban đầu.",
+                "images": [
+                  {
+                    "src": "/evidence/a1/p11_x51_1080x503.webp",
+                    "caption": "Hình 25. Chọn Restore trong Recycle Bin.",
+                    "alt": "Hình 25. Chọn Restore trong Recycle Bin."
+                  },
+                  {
+                    "src": "/evidence/a1/p11_x52_1080x354.webp",
+                    "caption": "Hình 26. Tệp được khôi phục về TaiLieu.",
+                    "alt": "Hình 26. Tệp được khôi phục về TaiLieu."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ket-qua",
+        "eyebrow": "Kết quả",
+        "title": "Kỹ năng đạt được",
+        "blocks": [
+          {
+            "type": "bullets",
+            "items": [
+              "Tạo và tổ chức cấu trúc thư mục theo quy tắc đặt tên rõ ràng.",
+              "Phân biệt chính xác Copy, Cut, Delete và Shift + Delete.",
+              "Hiểu vai trò của Recycle Bin trong khôi phục dữ liệu.",
+              "Ghi lại minh chứng theo đúng trình tự thao tác."
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Cảm nhận",
+            "text": "Bài thực hành giúp em hình thành thói quen quản lý tệp có hệ thống. Những thao tác tưởng như đơn giản nhưng rất cần thiết để tránh thất lạc dữ liệu và làm việc hiệu quả hơn trong các bài tập sau."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "tim-kiem-danh-gia-thong-tin-hoc-thuat",
+    "number": "02",
+    "stage": "Nghiên cứu",
+    "title": "Tìm kiếm và đánh giá thông tin học thuật",
+    "shortTitle": "Thông tin học thuật",
+    "summary": "Nghiên cứu vai trò của năng lực ngoại ngữ và giao tiếp liên văn hóa đối với chất lượng dịch vụ du lịch quốc tế.",
+    "pdf": "/documents/bai-tap-2.pdf",
+    "cover": null,
+    "tags": [
+      "Google Scholar",
+      "Harvard",
+      "Liên văn hóa"
+    ],
+    "objective": "Thu thập và đánh giá 10 nguồn học thuật theo tác giả, nhà xuất bản, phương pháp, mức độ trích dẫn và tính cập nhật.",
+    "sections": [
+      {
+        "id": "chu-de",
+        "eyebrow": "Chủ đề nghiên cứu",
+        "title": "Vai trò của năng lực ngoại ngữ và giao tiếp liên văn hóa trong việc nâng cao chất lượng dịch vụ du lịch quốc tế",
+        "blocks": [
+          {
+            "type": "paragraphs",
+            "items": [
+              "Trong bối cảnh toàn cầu hóa, du lịch quốc tế tạo ra nhu cầu giao tiếp ngày càng lớn giữa các quốc gia, nền văn hóa và ngôn ngữ khác nhau.",
+              "Trong ngành du lịch, năng lực ngoại ngữ không chỉ hỗ trợ truyền đạt thông tin mà còn ảnh hưởng trực tiếp đến sự hài lòng của khách, chất lượng dịch vụ và hình ảnh điểm đến.",
+              "Đối với sinh viên Du lịch – Ngôn ngữ, nghiên cứu này có ý nghĩa cả trong đào tạo lẫn thực tiễn nghề nghiệp."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "phuong-phap",
+        "eyebrow": "Phạm vi",
+        "title": "Từ khóa và nguồn tìm kiếm",
+        "blocks": [
+          {
+            "type": "bullets",
+            "title": "Từ khóa",
+            "items": [
+              "language skills tourism",
+              "intercultural communication tourism",
+              "foreign language hospitality",
+              "service quality tourism",
+              "English for tourism purposes"
+            ]
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Loại nguồn",
+              "Nơi tìm"
+            ],
+            "rows": [
+              [
+                "Cơ sở dữ liệu học thuật",
+                "Google Scholar, ScienceDirect"
+              ],
+              [
+                "Tạp chí khoa học",
+                "Tourism Management, Annals of Tourism Research"
+              ],
+              [
+                "Sách chuyên khảo",
+                "Routledge, Pearson"
+              ],
+              [
+                "Báo cáo quốc tế",
+                "UNWTO, OECD"
+              ],
+              [
+                "Nguồn mở",
+                "Website chính phủ"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "danh-gia",
+        "eyebrow": "Kết quả",
+        "title": "Bảng đánh giá độ tin cậy của 10 nguồn",
+        "blocks": [
+          {
+            "type": "table",
+            "wide": true,
+            "headers": [
+              "STT",
+              "Tác giả",
+              "Xuất bản",
+              "Loại",
+              "Đánh giá chi tiết"
+            ],
+            "rows": [
+              [
+                "1",
+                "Leslie & Russell (2006)",
+                "Elsevier",
+                "Bài báo",
+                "Đăng trên Tourism Management, một tạp chí Q1 uy tín. Phương pháp nghiên cứu định lượng rõ ràng và được trích dẫn nhiều nên có độ tin cậy cao."
+              ],
+              [
+                "2",
+                "Prachanant (2012)",
+                "Elsevier",
+                "Bài báo",
+                "Sử dụng khảo sát thực tế trong ngành du lịch và có dữ liệu cụ thể. Tuy nhiên bài đăng trên Procedia nên mức độ phản biện thấp hơn tạp chí Q1."
+              ],
+              [
+                "3",
+                "Tsang & Ap (2007)",
+                "SAGE Publications",
+                "Bài báo",
+                "Nghiên cứu chuyên sâu về hướng dẫn viên du lịch, phương pháp nghiên cứu tình huống rõ ràng và được trích dẫn trong nhiều nghiên cứu sau."
+              ],
+              [
+                "4",
+                "Chen & Starosta (2000)",
+                "Routledge",
+                "Bài báo",
+                "Nghiên cứu nổi tiếng về giao tiếp liên văn hóa và được trích dẫn nhiều. Hạn chế chính là năm xuất bản khá cũ nên tính cập nhật không cao."
+              ],
+              [
+                "5",
+                "Blue & Harun (2003)",
+                "Elsevier",
+                "Bài báo",
+                "Phân tích ngôn ngữ chuyên ngành trong khách sạn. Nội dung phù hợp nhưng số lượng trích dẫn không quá cao."
+              ],
+              [
+                "6",
+                "Sharma & Gao (2022)",
+                "Routledge",
+                "Sách",
+                "Chuyên khảo về ngôn ngữ và giao tiếp liên văn hóa trong du lịch, phù hợp trực tiếp với hướng nghiên cứu du lịch – ngôn ngữ."
+              ],
+              [
+                "7",
+                "Zalil & Lim (2022)",
+                "ASPeN",
+                "Bài báo",
+                "Scoping review theo chuẩn PRISMA, có phương pháp rõ ràng; cho thấy ngoại ngữ ảnh hưởng trực tiếp đến giao tiếp và chất lượng dịch vụ du lịch."
+              ],
+              [
+                "8",
+                "Nguyen & Modehiran (2023)",
+                "Khon Kaen University",
+                "Bài báo",
+                "Khảo sát nhu cầu tiếng Anh của sinh viên và nhân viên du lịch; nhấn mạnh kỹ năng nói và nghe, có độ tin cậy cao và phù hợp chủ đề."
+              ],
+              [
+                "9",
+                "OECD Tourism Trends and Policies (2024)",
+                "OECD Publishing",
+                "Báo cáo",
+                "Nguồn dữ liệu chính thức về nguồn nhân lực du lịch, nhấn mạnh nhu cầu nâng cao kỹ năng và năng lực giao tiếp."
+              ],
+              [
+                "10",
+                "Tourism Workforce Report (2023)",
+                "Tourism Research Australia",
+                "Báo cáo",
+                "Dữ liệu thống kê chính thức về thiếu hụt lao động có kỹ năng. Số liệu có thể giảm tính cập nhật theo thời gian nên cần đối chiếu khi sử dụng."
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nhan-xet",
+        "eyebrow": "Nhận xét",
+        "title": "Kết luận từ quá trình đánh giá",
+        "blocks": [
+          {
+            "type": "paragraphs",
+            "items": [
+              "Các bài báo trên những tạp chí quốc tế như Tourism Management có độ tin cậy cao nhất nhờ quy trình phản biện nghiêm ngặt và mức độ trích dẫn lớn. Các sách chuyên khảo của Routledge và Pearson cũng có giá trị học thuật cao vì được sử dụng trong đào tạo đại học.",
+              "Báo cáo của OECD và các cơ quan quốc tế có ưu thế về dữ liệu thống kê chính thức. Việc kết hợp nhiều loại nguồn giúp nghiên cứu đảm bảo tính khách quan và có góc nhìn toàn diện hơn."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tai-lieu",
+        "eyebrow": "Harvard",
+        "title": "Danh mục tài liệu tham khảo",
+        "blocks": [
+          {
+            "type": "references",
+            "items": [
+              {
+                "author": "Leslie, D. & Russell, H. (2006)",
+                "title": "The importance of foreign language skills in the tourism sector: A comparative study of student perceptions in the UK and continental Europe.",
+                "source": "Tourism Management, 27(6), pp.1397–1407.",
+                "url": "https://doi.org/10.1016/j.tourman.2005.12.016"
+              },
+              {
+                "author": "Prachanant, N. (2012)",
+                "title": "Needs analysis on English language use in tourism industry.",
+                "source": "Procedia – Social and Behavioral Sciences, 66, pp.117–125.",
+                "url": "https://doi.org/10.1016/j.sbspro.2012.11.253"
+              },
+              {
+                "author": "Tsang, N.K.F. & Ap, J. (2007)",
+                "title": "Tourists’ perceptions of relational quality service attributes: A cross-cultural study.",
+                "source": "Journal of Travel Research, 45(3), pp.355–363.",
+                "url": "https://www.researchgate.net/publication/240703626_Tourists'_Perceptions_of_Relational_Quality_Service_Attributes_A_Cross-Cultural_Study"
+              },
+              {
+                "author": "Chen, G.M. & Starosta, W.J. (2000)",
+                "title": "The development and validation of the intercultural communication competence scale.",
+                "source": "Human Communication, 3, pp.1–15.",
+                "url": "https://www.scirp.org/reference/referencespapers?referenceid=3064812"
+              },
+              {
+                "author": "Blue, G.M. (2003)",
+                "title": "Language, learning and tourism.",
+                "source": "English for Specific Purposes, 22(1), pp.99–113.",
+                "url": "https://doi.org/10.1016/S0889-4906(01)00031-X"
+              },
+              {
+                "author": "Sharma, B.K. & Gao, S. (2022)",
+                "title": "Language and Intercultural Communication in Tourism: Critical Perspectives.",
+                "source": "London: Routledge.",
+                "url": "https://www.routledge.com/Language-and-Intercultural-Communication-in-Tourism-Critical-Perspectives/Sharma-Gao/p/book/9781032119946"
+              },
+              {
+                "author": "Zalil, N.A.A. & Lim, S.P. (2022)",
+                "title": "English language in tourism industry: A scoping review.",
+                "source": "ASEAN Social Sciences and Education Journal, 2(2).",
+                "url": "https://doi.org/10.53797/aspen.v2i2.3.2022"
+              },
+              {
+                "author": "Nguyen, T.D. & Modehiran, P. (2023)",
+                "title": "English for tour operators and tour guides: Learning needs from stakeholders’ voices.",
+                "source": "Scholar: Human Sciences, 15(2).",
+                "url": "https://doi.org/10.14456/shserj.2023.47"
+              },
+              {
+                "author": "OECD (2024)",
+                "title": "OECD Tourism Trends and Policies 2024.",
+                "source": "Paris: Organisation for Economic Co-operation and Development.",
+                "url": "https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2024_80885d8b-en/full-report.html"
+              },
+              {
+                "author": "Tourism Research Australia (2023)",
+                "title": "Tourism Workforce Report.",
+                "source": "Canberra: Australian Government.",
+                "url": "https://www.tra.gov.au/en/economic-analysis/tourism-workforce-report"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "viet-prompt-hieu-qua",
+    "number": "03",
+    "stage": "Prompt Engineering",
+    "title": "Viết prompt hiệu quả cho các tác vụ học tập",
+    "shortTitle": "Prompt hiệu quả",
+    "summary": "Thử nghiệm ba cấp độ prompt cho ba tác vụ: tóm tắt tài liệu, giải thích khái niệm và tạo câu hỏi ôn tập.",
+    "pdf": "/documents/bai-tap-3.pdf",
+    "cover": "/evidence/a3/p02_x11_1090x613.webp",
+    "tags": [
+      "ChatGPT",
+      "Role prompting",
+      "Cấu trúc đầu ra"
+    ],
+    "objective": "So sánh prompt cơ bản, cải tiến và nâng cao để nhận diện mối liên hệ giữa độ rõ ràng của yêu cầu với chất lượng phản hồi AI.",
+    "sections": [
+      {
+        "id": "tom-tat",
+        "eyebrow": "Tác vụ 01",
+        "title": "Tóm tắt tài liệu học thuật",
+        "blocks": [
+          {
+            "type": "paragraphs",
+            "items": [
+              "Tóm tắt tài liệu học thuật giúp người học tiết kiệm thời gian và nắm nội dung cốt lõi. Thách thức nằm ở việc xác định ý chính, loại bỏ thông tin không cần thiết và vẫn giữ được tính chính xác học thuật.",
+              "Văn bản thử nghiệm là câu chuyện về một người ăn xin được trao nhiều cơ hội nhưng vẫn chỉ nghĩ cách mở rộng việc ăn xin. Câu chuyện nhấn mạnh rằng cơ hội không thể thay đổi kết quả nếu tư duy không thay đổi."
+            ]
+          },
+          {
+            "type": "prompt-set",
+            "items": [
+              {
+                "label": "Prompt cơ bản",
+                "text": "Hãy tóm tắt đoạn văn này."
+              },
+              {
+                "label": "Prompt cải tiến",
+                "text": "Hãy tóm tắt bài đọc dưới đây trong khoảng 150 từ. Nêu rõ chủ đề chính, các luận điểm quan trọng và kết luận của tác giả. Trình bày dưới dạng gạch đầu dòng."
+              },
+              {
+                "label": "Prompt nâng cao",
+                "text": "Bạn là một trợ lý học thuật chuyên hỗ trợ sinh viên đại học. Hãy xác định chủ đề trung tâm, tìm ba luận điểm quan trọng nhất, tóm tắt bằng ngôn ngữ đơn giản nhưng vẫn giữ tính học thuật và viết kết luận ngắn về ý nghĩa của bài đọc. Trình bày theo mẫu: Chủ đề – Luận điểm 1 – Luận điểm 2 – Luận điểm 3 – Kết luận."
+              }
+            ]
+          },
+          {
+            "type": "paragraphs",
+            "title": "So sánh và phân tích",
+            "items": [
+              "Prompt cơ bản cho kết quả ngắn và thiếu cấu trúc. Prompt cải tiến tốt hơn nhờ quy định độ dài và bố cục. Prompt nâng cao tạo bản tóm tắt đầy đủ, logic, có chiều sâu và đúng cấu trúc mong muốn.",
+              "Role prompting giúp AI phản hồi theo hướng học thuật; việc chia nhiệm vụ thành nhiều bước làm giảm nguy cơ bỏ sót ý quan trọng."
+            ]
+          },
+          {
+            "type": "gallery",
+            "columns": 3,
+            "items": [
+              {
+                "src": "/evidence/a3/p01_x7_1068x658.webp",
+                "caption": "Kết quả thử nghiệm prompt cơ bản.",
+                "alt": "Kết quả thử nghiệm prompt cơ bản."
+              },
+              {
+                "src": "/evidence/a3/p02_x11_1090x613.webp",
+                "caption": "Kết quả thử nghiệm prompt cải tiến.",
+                "alt": "Kết quả thử nghiệm prompt cải tiến."
+              },
+              {
+                "src": "/evidence/a3/p03_x14_1151x699.webp",
+                "caption": "Kết quả thử nghiệm prompt nâng cao.",
+                "alt": "Kết quả thử nghiệm prompt nâng cao."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "giai-thich",
+        "eyebrow": "Tác vụ 02",
+        "title": "Giải thích một khái niệm phức tạp",
+        "blocks": [
+          {
+            "type": "paragraphs",
+            "items": [
+              "Một lời giải thích hiệu quả phải chính xác, phù hợp trình độ người học và có ví dụ. Nếu prompt không xác định đối tượng hoặc cách trình bày, câu trả lời dễ quá học thuật hoặc quá đơn giản."
+            ]
+          },
+          {
+            "type": "prompt-set",
+            "items": [
+              {
+                "label": "Prompt cơ bản",
+                "text": "Giải thích khái niệm trí tuệ nhân tạo."
+              },
+              {
+                "label": "Prompt cải tiến",
+                "text": "Hãy giải thích khái niệm trí tuệ nhân tạo cho học sinh trung học. Bao gồm định nghĩa, ví dụ thực tế và ứng dụng trong đời sống. Sử dụng ngôn ngữ dễ hiểu."
+              },
+              {
+                "label": "Prompt nâng cao",
+                "text": "Bạn là giáo viên công nghệ thông tin đang giảng bài cho học sinh lớp 10. Hãy giải thích theo trình tự: định nghĩa đơn giản; so sánh AI với con người; ba ví dụ thực tế; ưu điểm và hạn chế; kết thúc bằng một câu hỏi mở. Dùng ngôn ngữ gần gũi, dễ hiểu."
+              }
+            ]
+          },
+          {
+            "type": "paragraphs",
+            "title": "So sánh và phân tích",
+            "items": [
+              "Prompt cơ bản chỉ đưa ra định nghĩa chung. Prompt cải tiến dễ hiểu hơn nhờ xác định rõ đối tượng. Prompt nâng cao tốt nhất vì có tính tương tác, sư phạm, ví dụ gần gũi và câu hỏi mở.",
+              "Hiệu quả đến từ việc kết hợp role prompting, cấu trúc từng bước và yêu cầu ví dụ thực tế."
+            ]
+          },
+          {
+            "type": "gallery",
+            "columns": 2,
+            "items": [
+              {
+                "src": "/evidence/a3/p04_x17_1027x209.webp",
+                "caption": "Prompt cơ bản cho tác vụ giải thích.",
+                "alt": "Prompt cơ bản cho tác vụ giải thích."
+              },
+              {
+                "src": "/evidence/a3/p04_x18_1069x620.webp",
+                "caption": "Kết quả prompt cơ bản.",
+                "alt": "Kết quả prompt cơ bản."
+              },
+              {
+                "src": "/evidence/a3/p05_x21_1103x694.webp",
+                "caption": "Kết quả prompt cải tiến.",
+                "alt": "Kết quả prompt cải tiến."
+              },
+              {
+                "src": "/evidence/a3/p06_x24_1067x439.webp",
+                "caption": "Cấu trúc prompt nâng cao.",
+                "alt": "Cấu trúc prompt nâng cao."
+              },
+              {
+                "src": "/evidence/a3/p06_x25_1125x690.webp",
+                "caption": "Kết quả prompt nâng cao.",
+                "alt": "Kết quả prompt nâng cao."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cau-hoi",
+        "eyebrow": "Tác vụ 03",
+        "title": "Tạo bộ câu hỏi ôn tập",
+        "blocks": [
+          {
+            "type": "paragraphs",
+            "items": [
+              "Một bộ câu hỏi chất lượng phải đa dạng về hình thức, phù hợp trình độ, bao quát nội dung trọng tâm và có độ phân hóa. Prompt mơ hồ thường tạo câu hỏi lặp lại hoặc thiếu cân bằng."
+            ]
+          },
+          {
+            "type": "prompt-set",
+            "items": [
+              {
+                "label": "Prompt cơ bản",
+                "text": "Tạo câu hỏi ôn tập về mạng xã hội."
+              },
+              {
+                "label": "Prompt cải tiến",
+                "text": "Hãy tạo 10 câu hỏi ôn tập về tác động của mạng xã hội, gồm 5 câu trắc nghiệm, 3 câu tự luận, 2 câu vận dụng thực tế; kèm đáp án ngắn gọn."
+              },
+              {
+                "label": "Prompt nâng cao",
+                "text": "Bạn là giảng viên kỹ năng số tại trường đại học. Hãy tạo bộ câu hỏi về ‘Mối nguy hại của mạng xã hội đối với sinh viên’: 5 câu trắc nghiệm có 4 đáp án, 3 câu tự luận phân tích, 2 câu tình huống thực tế; có đáp án và giải thích ngắn, sắp xếp từ dễ đến khó."
+              }
+            ]
+          },
+          {
+            "type": "paragraphs",
+            "title": "So sánh và phân tích",
+            "items": [
+              "Prompt cơ bản tạo ít câu hỏi và thiếu đa dạng. Prompt cải tiến phân chia được nhiều dạng câu hỏi. Prompt nâng cao cho bộ câu hỏi chuyên nghiệp, có độ khó tăng dần, tình huống thực tế và lời giải thích.",
+              "Việc quy định vai trò, số lượng, loại câu hỏi, độ khó và mẫu đầu ra giúp AI tạo kết quả đồng nhất, dễ sử dụng."
+            ]
+          },
+          {
+            "type": "gallery",
+            "columns": 3,
+            "items": [
+              {
+                "src": "/evidence/a3/p07_x28_998x450.webp",
+                "caption": "Prompt cơ bản và kết quả đầu tiên.",
+                "alt": "Prompt cơ bản và kết quả đầu tiên."
+              },
+              {
+                "src": "/evidence/a3/p08_x31_874x589.webp",
+                "caption": "Prompt cải tiến.",
+                "alt": "Prompt cải tiến."
+              },
+              {
+                "src": "/evidence/a3/p08_x32_836x534.webp",
+                "caption": "Kết quả câu hỏi trắc nghiệm.",
+                "alt": "Kết quả câu hỏi trắc nghiệm."
+              },
+              {
+                "src": "/evidence/a3/p08_x33_834x561.webp",
+                "caption": "Kết quả câu hỏi tự luận và vận dụng.",
+                "alt": "Kết quả câu hỏi tự luận và vận dụng."
+              },
+              {
+                "src": "/evidence/a3/p09_x36_1007x578.webp",
+                "caption": "Cấu trúc prompt nâng cao.",
+                "alt": "Cấu trúc prompt nâng cao."
+              },
+              {
+                "src": "/evidence/a3/p09_x37_1022x281.webp",
+                "caption": "Yêu cầu định dạng đầu ra.",
+                "alt": "Yêu cầu định dạng đầu ra."
+              },
+              {
+                "src": "/evidence/a3/p10_x40_1016x506.webp",
+                "caption": "Kết quả 1 của prompt nâng cao.",
+                "alt": "Kết quả 1 của prompt nâng cao."
+              },
+              {
+                "src": "/evidence/a3/p10_x41_962x465.webp",
+                "caption": "Kết quả 2 của prompt nâng cao.",
+                "alt": "Kết quả 2 của prompt nâng cao."
+              },
+              {
+                "src": "/evidence/a3/p10_x42_1031x465.webp",
+                "caption": "Kết quả 3 của prompt nâng cao.",
+                "alt": "Kết quả 3 của prompt nâng cao."
+              },
+              {
+                "src": "/evidence/a3/p10_x43_1091x471.webp",
+                "caption": "Kết quả 4 của prompt nâng cao.",
+                "alt": "Kết quả 4 của prompt nâng cao."
+              },
+              {
+                "src": "/evidence/a3/p10_x44_951x450.webp",
+                "caption": "Kết quả 5 của prompt nâng cao.",
+                "alt": "Kết quả 5 của prompt nâng cao."
+              },
+              {
+                "src": "/evidence/a3/p11_x47_979x499.webp",
+                "caption": "Phần tiếp theo của bộ câu hỏi.",
+                "alt": "Phần tiếp theo của bộ câu hỏi."
+              },
+              {
+                "src": "/evidence/a3/p11_x48_1007x465.webp",
+                "caption": "Câu hỏi vận dụng.",
+                "alt": "Câu hỏi vận dụng."
+              },
+              {
+                "src": "/evidence/a3/p11_x49_1086x488.webp",
+                "caption": "Đáp án và giải thích.",
+                "alt": "Đáp án và giải thích."
+              },
+              {
+                "src": "/evidence/a3/p11_x50_1166x540.webp",
+                "caption": "Kết quả cuối bộ câu hỏi.",
+                "alt": "Kết quả cuối bộ câu hỏi."
+              },
+              {
+                "src": "/evidence/a3/p11_x51_1153x534.webp",
+                "caption": "Hoàn thiện kết quả thử nghiệm.",
+                "alt": "Hoàn thiện kết quả thử nghiệm."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nguyen-tac",
+        "eyebrow": "Tổng hợp",
+        "title": "Nguyên tắc viết prompt hiệu quả",
+        "blocks": [
+          {
+            "type": "bullets",
+            "items": [
+              "Đặt yêu cầu rõ ràng và cụ thể.",
+              "Xác định đối tượng người đọc hoặc người học.",
+              "Chia nhiệm vụ thành nhiều bước nhỏ.",
+              "Quy định bố cục và định dạng đầu ra.",
+              "Sử dụng vai trò giả định phù hợp cho AI.",
+              "Bổ sung ví dụ minh họa khi cần thiết."
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Kết luận",
+            "text": "Prompt Engineering quyết định đáng kể chất lượng phản hồi. Prompt có ngữ cảnh, cấu trúc rõ ràng và kỹ thuật phù hợp cho kết quả tốt hơn hẳn prompt cơ bản; vì vậy kỹ năng đặt câu hỏi là một năng lực số thiết yếu của sinh viên."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cong-cu-hop-tac-truc-tuyen",
+    "number": "04",
+    "stage": "Làm việc nhóm",
+    "title": "Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm",
+    "shortTitle": "Hợp tác trực tuyến",
+    "summary": "Báo cáo vai trò cá nhân trong dự án “Tác động của mạng xã hội đối với sinh viên” với Trello, Google Docs, Drive và Discord.",
+    "pdf": "/documents/bai-tap-4.pdf",
+    "cover": "/evidence/a4/p01_x6_1920x1080.webp",
+    "tags": [
+      "Trello",
+      "Google Docs",
+      "Google Drive"
+    ],
+    "objective": "Minh chứng khả năng quản lý nhiệm vụ, cộng tác nội dung, tổ chức tài nguyên và xử lý thách thức trong một dự án nhóm.",
+    "sections": [
+      {
+        "id": "gioi-thieu",
+        "eyebrow": "Bối cảnh",
+        "title": "Vai trò cá nhân trong dự án nhóm",
+        "blocks": [
+          {
+            "type": "paragraphs",
+            "items": [
+              "Dự án nhóm lựa chọn chủ đề “Tác động của mạng xã hội đối với sinh viên”. Em phụ trách tìm kiếm tài liệu, tổng hợp nội dung và hỗ trợ theo dõi tiến độ công việc.",
+              "Bốn công cụ được sử dụng trực tiếp gồm Trello, Google Docs, Google Drive và Discord, tương ứng với quản lý nhiệm vụ, soạn thảo cộng tác, lưu trữ dữ liệu và giao tiếp nhóm."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trello",
+        "eyebrow": "Công cụ 01",
+        "title": "Trello – Quản lý công việc cá nhân",
+        "blocks": [
+          {
+            "type": "paragraphs",
+            "items": [
+              "Mỗi nhiệm vụ được tạo thành một thẻ riêng, có mô tả, thời hạn và danh sách bước thực hiện. Trạng thái được cập nhật từ To Do sang Doing rồi Done.",
+              "Trello giúp theo dõi khối lượng công việc, tránh bỏ sót nhiệm vụ và chủ động sắp xếp thời gian theo tiến độ chung."
+            ]
+          },
+          {
+            "type": "gallery",
+            "items": [
+              {
+                "src": "/evidence/a4/p01_x6_1920x1080.webp",
+                "caption": "Bảng Trello theo dõi tiến độ và nhiệm vụ của nhóm.",
+                "alt": "Bảng Trello theo dõi tiến độ và nhiệm vụ của nhóm."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "docs",
+        "eyebrow": "Công cụ 02",
+        "title": "Google Docs – Soạn thảo và chỉnh sửa cộng tác",
+        "blocks": [
+          {
+            "type": "paragraphs",
+            "items": [
+              "Em tham gia viết phần giới thiệu, thực trạng và kết luận của báo cáo. Khả năng chỉnh sửa đồng thời giúp các thành viên quan sát thay đổi theo thời gian thực và góp ý trực tiếp.",
+              "Lịch sử phiên bản giúp kiểm tra phần đóng góp của từng người và khôi phục nội dung khi cần, nâng cao tính minh bạch trong hợp tác."
+            ]
+          },
+          {
+            "type": "gallery",
+            "items": [
+              {
+                "src": "/evidence/a4/p02_x10_1628x739.webp",
+                "caption": "Minh chứng chỉnh sửa nội dung trên Google Docs.",
+                "alt": "Minh chứng chỉnh sửa nội dung trên Google Docs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "drive",
+        "eyebrow": "Công cụ 03",
+        "title": "Google Drive – Lưu trữ và chia sẻ tài liệu",
+        "blocks": [
+          {
+            "type": "paragraphs",
+            "items": [
+              "Tài liệu được chia thành các thư mục Tài liệu tham khảo, Hình ảnh, Nội dung báo cáo và Slide thuyết trình.",
+              "Nhóm thống nhất quy tắc đặt tên tệp và thiết lập quyền xem hoặc chỉnh sửa phù hợp cho từng tài liệu."
+            ]
+          },
+          {
+            "type": "gallery",
+            "items": [
+              {
+                "src": "/evidence/a4/p03_x13_1123x544.webp",
+                "caption": "Cấu trúc thư mục và tài liệu được chia sẻ trên Google Drive.",
+                "alt": "Cấu trúc thư mục và tài liệu được chia sẻ trên Google Drive."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "danh-gia",
+        "eyebrow": "Đánh giá",
+        "title": "Hiệu quả và thách thức",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Thách thức",
+              "Cách giải quyết"
+            ],
+            "rows": [
+              [
+                "Khó thống nhất thời gian làm việc",
+                "Trao đổi trực tuyến và cập nhật thông tin bất cứ khi nào có thời gian rảnh, giảm phụ thuộc vào họp trực tiếp."
+              ],
+              [
+                "Trùng lặp nội dung khi soạn thảo",
+                "Phân chia rõ từng phần trên Google Docs và Trello, thường xuyên kiểm tra tiến độ."
+              ],
+              [
+                "Tài liệu lưu trữ rời rạc",
+                "Tổ chức lại hệ thống thư mục trên Google Drive và áp dụng quy tắc đặt tên thống nhất."
+              ]
+            ]
+          },
+          {
+            "type": "paragraphs",
+            "items": [
+              "Trello hạn chế quên việc và chậm tiến độ; Google Docs giảm việc gửi nhiều phiên bản; Google Drive giảm nguy cơ thất lạc tài liệu. Sự kết hợp các công cụ giúp tăng năng suất và cải thiện phối hợp nhóm."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ket-luan",
+        "eyebrow": "Tổng kết",
+        "title": "Kỹ năng rút ra",
+        "blocks": [
+          {
+            "type": "note",
+            "text": "Qua dự án, em nâng cao kỹ năng sử dụng công cụ cộng tác, quản lý thời gian và phối hợp với thành viên khác. Đây là những năng lực có thể tiếp tục áp dụng trong học tập và môi trường làm việc sau này."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ai-tao-sinh-sang-tao-noi-dung",
+    "number": "05",
+    "stage": "Sáng tạo với AI",
+    "title": "Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung",
+    "shortTitle": "AI tạo sinh",
+    "summary": "Thiết kế infographic về lợi ích và thách thức của AI trong giáo dục bằng ChatGPT, DALL·E và Canva AI.",
+    "pdf": "/documents/bai-tap-5.pdf",
+    "cover": "/evidence/a5/p03_x10_1122x1402.webp",
+    "tags": [
+      "ChatGPT",
+      "DALL·E",
+      "Canva AI"
+    ],
+    "objective": "Ghi lại toàn bộ quy trình từ nghiên cứu, tạo nội dung, tạo hình ảnh đến thiết kế cuối; đồng thời đánh giá vai trò, giới hạn và vấn đề đạo đức của AI.",
+    "sections": [
+      {
+        "id": "gioi-thieu",
+        "eyebrow": "Đề tài",
+        "title": "Lợi ích và thách thức của AI trong giáo dục",
+        "blocks": [
+          {
+            "type": "paragraphs",
+            "items": [
+              "AI đang được ứng dụng rộng rãi để hỗ trợ học tập, cá nhân hóa đào tạo và nâng cao hiệu quả giảng dạy. Sản phẩm được lựa chọn là một infographic trực quan dành cho sinh viên, học sinh trung học và người quan tâm đến công nghệ AI.",
+              "Mục tiêu là kết hợp công cụ AI tạo sinh với sự lựa chọn, kiểm chứng và chỉnh sửa của người thực hiện để tạo ra sản phẩm có giá trị sử dụng thực tế."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chatgpt",
+        "eyebrow": "Công cụ 01",
+        "title": "ChatGPT – Xây dựng nội dung",
+        "blocks": [
+          {
+            "type": "prompt",
+            "label": "Prompt sử dụng",
+            "text": "Hãy tóm tắt các lợi ích và thách thức của AI trong giáo dục thành các ý ngắn gọn, phù hợp với infographic dành cho sinh viên."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Lợi ích",
+              "Thách thức"
+            ],
+            "rows": [
+              [
+                "Cá nhân hóa việc học",
+                "Nguy cơ phụ thuộc vào công nghệ"
+              ],
+              [
+                "Hỗ trợ học tập mọi lúc, mọi nơi",
+                "Thông tin sai lệch do AI tạo ra"
+              ],
+              [
+                "Tiết kiệm thời gian cho giáo viên",
+                "Vấn đề bảo mật dữ liệu"
+              ],
+              [
+                "Tăng khả năng tiếp cận giáo dục",
+                "Gian lận trong học tập"
+              ]
+            ]
+          },
+          {
+            "type": "gallery",
+            "items": [
+              {
+                "src": "/evidence/a5/p03_x10_1122x1402.webp",
+                "caption": "Phương án infographic tiếng Việt về AI trong giáo dục.",
+                "alt": "Phương án infographic tiếng Việt về AI trong giáo dục."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dalle",
+        "eyebrow": "Công cụ 02",
+        "title": "DALL·E – Tạo hình ảnh minh họa",
+        "blocks": [
+          {
+            "type": "prompt",
+            "label": "Prompt sử dụng",
+            "text": "Create a modern flat-style illustration showing students using AI tools for learning in a digital classroom, educational technology, infographic style."
+          },
+          {
+            "type": "paragraphs",
+            "items": [
+              "Kết quả là hình ảnh học sinh sử dụng máy tính kết hợp biểu tượng AI và môi trường học tập số. Em lựa chọn phương án phù hợp và cắt bớt chi tiết để đảm bảo thẩm mỹ, phù hợp bố cục."
+            ]
+          },
+          {
+            "type": "gallery",
+            "items": [
+              {
+                "src": "/evidence/a5/p04_x14_1536x1024.webp",
+                "caption": "Hình minh họa được tạo bằng DALL·E.",
+                "alt": "Hình minh họa được tạo bằng DALL·E."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "canva",
+        "eyebrow": "Công cụ 03",
+        "title": "Canva AI – Hoàn thiện bố cục",
+        "blocks": [
+          {
+            "type": "prompt",
+            "label": "Prompt sử dụng",
+            "text": "Design an educational infographic about the benefits and challenges of AI in education."
+          },
+          {
+            "type": "paragraphs",
+            "items": [
+              "Canva AI đề xuất nhiều bố cục và biểu tượng. Em chọn một mẫu đơn giản rồi tự chỉnh màu sắc, vị trí hình ảnh, phông chữ và cách sắp xếp nội dung."
+            ]
+          },
+          {
+            "type": "gallery",
+            "items": [
+              {
+                "src": "/evidence/a5/p05_x17_800x2000.webp",
+                "caption": "Phương án bố cục infographic bằng Canva AI.",
+                "alt": "Phương án bố cục infographic bằng Canva AI."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "quy-trinh",
+        "eyebrow": "Tích hợp",
+        "title": "Quy trình sáng tạo bốn bước",
+        "blocks": [
+          {
+            "type": "steps-simple",
+            "items": [
+              {
+                "title": "Nghiên cứu chủ đề",
+                "text": "Xác định nội dung trọng tâm về AI trong giáo dục."
+              },
+              {
+                "title": "Tạo nội dung",
+                "text": "Sử dụng ChatGPT để tóm tắt và cấu trúc thông tin."
+              },
+              {
+                "title": "Tạo hình ảnh",
+                "text": "Sử dụng DALL·E để tạo minh họa phù hợp."
+              },
+              {
+                "title": "Thiết kế cuối",
+                "text": "Dùng Canva AI, sau đó chỉnh sửa thủ công để tạo dấu ấn cá nhân."
+              }
+            ]
+          },
+          {
+            "type": "paragraphs",
+            "items": [
+              "AI hỗ trợ mạnh ở giai đoạn gợi ý và tạo bản nháp, nhưng em vẫn trực tiếp kiểm tra tính chính xác, chọn lọc nội dung, chỉnh hình ảnh và quyết định bố cục cuối."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "so-sanh",
+        "eyebrow": "Đánh giá",
+        "title": "So sánh hiệu quả ba công cụ",
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "Công cụ",
+              "Điểm mạnh",
+              "Hạn chế"
+            ],
+            "rows": [
+              [
+                "ChatGPT",
+                "Tổng hợp thông tin nhanh, đề xuất ý tưởng và viết nội dung ngắn gọn.",
+                "Cần kiểm tra lại thông tin vì có thể tạo dữ liệu chưa chính xác."
+              ],
+              [
+                "DALL·E",
+                "Tạo hình ảnh sáng tạo từ mô tả, tiết kiệm thời gian tìm kiếm.",
+                "Một số chi tiết hình ảnh có thể chưa hợp lý hoặc lệch yêu cầu."
+              ],
+              [
+                "Canva AI",
+                "Đề xuất bố cục, màu sắc và biểu tượng phù hợp chủ đề.",
+                "Thiết kế dễ mang tính khuôn mẫu nếu không được chỉnh sửa."
+              ]
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Vai trò của con người",
+            "text": "AI là trợ lý sáng tạo chứ không thay thế người thực hiện. Con người vẫn chịu trách nhiệm kiểm chứng, chọn lọc, chỉnh sửa, tôn trọng bản quyền, bảo vệ dữ liệu và giữ tư duy độc lập."
+          }
+        ]
+      },
+      {
+        "id": "ket-luan",
+        "eyebrow": "Tổng kết",
+        "title": "Bài học từ dự án",
+        "blocks": [
+          {
+            "type": "paragraphs",
+            "items": [
+              "Việc kết hợp ChatGPT, DALL·E và Canva AI giúp quy trình nghiên cứu, tạo nội dung và thiết kế diễn ra nhanh hơn. Tuy nhiên, chất lượng cuối cùng phụ thuộc vào khả năng đánh giá và đóng góp sáng tạo cá nhân.",
+              "Sử dụng AI có trách nhiệm, hiệu quả và phù hợp nguyên tắc đạo đức là yêu cầu cần thiết đối với mỗi người học."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "su-dung-ai-co-trach-nhiem",
+    "number": "06",
+    "stage": "Đạo đức số",
+    "title": "Sử dụng AI có trách nhiệm trong học tập và nghiên cứu",
+    "shortTitle": "AI có trách nhiệm",
+    "summary": "Phân tích định hướng sử dụng AI trong đại học, thực hành hỗ trợ thuyết trình và xây dựng sáu nguyên tắc cá nhân.",
+    "pdf": "/documents/bai-tap-6.pdf",
+    "cover": "/evidence/a6/p07_x29_1024x1536.webp",
+    "tags": [
+      "Liêm chính học thuật",
+      "Trích dẫn",
+      "Tư duy phản biện"
+    ],
+    "objective": "Phân định ranh giới giữa hỗ trợ hợp lý và gian lận, minh bạch quá trình dùng AI và bảo vệ năng lực tư duy độc lập của người học.",
+    "sections": [
+      {
+        "id": "chinh-sach",
+        "eyebrow": "Phân tích chính sách",
+        "title": "AI là công cụ hỗ trợ, không thay thế tư duy",
+        "blocks": [
+          {
+            "type": "paragraphs",
+            "items": [
+              "Bài làm nghiên cứu định hướng của Đại học Quốc gia Hà Nội về việc trang bị năng lực số và sử dụng AI trong học tập. Từ năm học 2025–2026, học phần VNU1001 được triển khai nhằm giúp sinh viên hiểu và khai thác các công cụ AI đồng thời tuân thủ đạo đức và liêm chính học thuật.",
+              "Sinh viên có thể dùng AI để tìm kiếm tài liệu, xây dựng dàn ý, hỗ trợ báo cáo, dịch thuật hoặc giải thích kiến thức; nhưng phải tự kiểm chứng, không sao chép nguyên văn và cần minh bạch trong sản phẩm học thuật.",
+              "Cách tiếp cận hướng dẫn thay vì cấm đoán phù hợp với giáo dục hiện đại, vừa tăng hiệu quả học tập vừa hình thành ý thức trung thực."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "thuc-hanh",
+        "eyebrow": "Nhiệm vụ học tập",
+        "title": "Chuẩn bị bài thuyết trình về AI trong học ngoại ngữ",
+        "blocks": [
+          {
+            "type": "prompt-set",
+            "items": [
+              {
+                "label": "Prompt 1",
+                "text": "Hãy xây dựng dàn ý cho bài thuyết trình 8–10 phút về lợi ích và thách thức của AI trong học tập ngoại ngữ."
+              },
+              {
+                "label": "Prompt 2",
+                "text": "Hãy phân tích lợi ích và thách thức của AI trong học tập ngoại ngữ kèm ví dụ minh họa."
+              }
+            ]
+          },
+          {
+            "type": "paragraphs",
+            "items": [
+              "AI đề xuất cấu trúc gồm mở đầu, ba lợi ích, ba thách thức, giải pháp và kết luận; đồng thời nêu các lợi ích như cá nhân hóa, phản hồi nhanh, tiết kiệm thời gian và các rủi ro như phụ thuộc, thông tin chưa chính xác, gian lận học thuật.",
+              "Sau khi nhận đầu ra, em kiểm tra bằng tài liệu đáng tin cậy, chỉnh cách diễn đạt, bổ sung ví dụ và không sao chép nguyên văn."
+            ]
+          },
+          {
+            "type": "gallery",
+            "columns": 3,
+            "items": [
+              {
+                "src": "/evidence/a6/p02_x8_1080x1495.webp",
+                "caption": "Minh chứng xây dựng dàn ý thuyết trình.",
+                "alt": "Minh chứng xây dựng dàn ý thuyết trình."
+              },
+              {
+                "src": "/evidence/a6/p02_x10_1080x1512.webp",
+                "caption": "Kết quả phân tích lợi ích.",
+                "alt": "Kết quả phân tích lợi ích."
+              },
+              {
+                "src": "/evidence/a6/p02_x11_1080x1572.webp",
+                "caption": "Kết quả phân tích thách thức.",
+                "alt": "Kết quả phân tích thách thức."
+              },
+              {
+                "src": "/evidence/a6/p02_x12_1080x1527.webp",
+                "caption": "Gợi ý giải pháp và kết luận.",
+                "alt": "Gợi ý giải pháp và kết luận."
+              },
+              {
+                "src": "/evidence/a6/p03_x15_1080x1512.webp",
+                "caption": "Prompt thứ hai và nội dung phản hồi.",
+                "alt": "Prompt thứ hai và nội dung phản hồi."
+              },
+              {
+                "src": "/evidence/a6/p03_x16_1118x615.webp",
+                "caption": "Đầu ra AI được dùng làm tài liệu tham khảo.",
+                "alt": "Đầu ra AI được dùng làm tài liệu tham khảo."
+              },
+              {
+                "src": "/evidence/a6/p04_x19_1093x677.webp",
+                "caption": "Phần lợi ích trong đầu ra AI.",
+                "alt": "Phần lợi ích trong đầu ra AI."
+              },
+              {
+                "src": "/evidence/a6/p04_x20_1108x652.webp",
+                "caption": "Phần thách thức trong đầu ra AI.",
+                "alt": "Phần thách thức trong đầu ra AI."
+              },
+              {
+                "src": "/evidence/a6/p04_x21_1125x673.webp",
+                "caption": "Phần giải pháp trong đầu ra AI.",
+                "alt": "Phần giải pháp trong đầu ra AI."
+              },
+              {
+                "src": "/evidence/a6/p05_x24_1131x671.webp",
+                "caption": "Đánh giá và chỉnh sửa đầu ra AI.",
+                "alt": "Đánh giá và chỉnh sửa đầu ra AI."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dao-duc",
+        "eyebrow": "Phân tích đạo đức",
+        "title": "Ba vấn đề cốt lõi",
+        "blocks": [
+          {
+            "type": "cards",
+            "items": [
+              {
+                "title": "Hỗ trợ hay gian lận",
+                "text": "Dùng AI để tìm ý tưởng, giải thích và chỉnh sửa là hỗ trợ hợp lý. Sao chép toàn bộ đầu ra để nộp mà không chỉnh sửa hoặc khai báo là gian lận học thuật."
+              },
+              {
+                "title": "Sở hữu trí tuệ và trích dẫn",
+                "text": "Người dùng phải tôn trọng bản quyền, kiểm tra nguồn và ghi nhận việc sử dụng AI để đảm bảo minh bạch trong nghiên cứu."
+              },
+              {
+                "title": "Phát triển kỹ năng",
+                "text": "AI có thể tiết kiệm thời gian nhưng việc phụ thuộc quá mức làm giảm tư duy phản biện, kỹ năng viết, giải quyết vấn đề và sáng tạo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nguyen-tac",
+        "eyebrow": "Cam kết cá nhân",
+        "title": "Sáu nguyên tắc sử dụng AI có trách nhiệm",
+        "blocks": [
+          {
+            "type": "numbered",
+            "items": [
+              "Chỉ sử dụng AI như công cụ hỗ trợ, không thay thế tư duy của bản thân.",
+              "Luôn kiểm chứng thông tin do AI cung cấp bằng các nguồn đáng tin cậy.",
+              "Không sao chép nguyên văn nội dung AI để nộp bài.",
+              "Minh bạch và trích dẫn khi có sử dụng AI trong quá trình học tập.",
+              "Tôn trọng quyền sở hữu trí tuệ và bản quyền của tác giả.",
+              "Kết hợp AI với việc tự học để phát triển tư duy phản biện và kỹ năng chuyên môn."
+            ]
+          },
+          {
+            "type": "gallery",
+            "items": [
+              {
+                "src": "/evidence/a6/p07_x29_1024x1536.webp",
+                "caption": "Infographic “Sử dụng AI có trách nhiệm trong học thuật”.",
+                "alt": "Infographic “Sử dụng AI có trách nhiệm trong học thuật”."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ket-luan",
+        "eyebrow": "Tổng kết",
+        "title": "Trách nhiệm vẫn thuộc về người học",
+        "blocks": [
+          {
+            "type": "note",
+            "text": "AI mang lại nhiều lợi ích nhưng không thể thay thế khả năng tư duy, sáng tạo và trách nhiệm của sinh viên. Sử dụng trung thực, minh bạch và có kiểm soát là điều kiện để AI thực sự nâng cao chất lượng học tập."
+          }
+        ]
+      }
+    ]
+  }
+]
