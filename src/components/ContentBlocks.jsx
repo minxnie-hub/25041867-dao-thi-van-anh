@@ -15,6 +15,14 @@ function PromptSet({ items }) {
   return <div className="prompt-set">{items.map((item, index) => <article key={item.label}><div><span>0{index + 1}</span><strong>{item.label}</strong></div><p>{item.text}</p></article>)}</div>;
 }
 
+function SourceList({ items }) {
+  return <ol className="source-list">{items.map((item, index) => <li key={`${item.label}-${index}`}><span>{String(index + 1).padStart(2, "0")}</span><div><strong>{item.label}</strong><a href={item.url} target="_blank" rel="noreferrer">{item.url}</a></div></li>)}</ol>;
+}
+
+function SourceQuote({ block }) {
+  return <blockquote className="source-quote"><strong>{block.title}</strong>{block.items.map((item, index) => <p key={index}>{item}</p>)}</blockquote>;
+}
+
 function ProcessSteps({ items }) {
   return <ol className="process-steps">{items.map((item, index) => <li key={`${item.title}-${index}`}><span>{String(index + 1).padStart(2, "0")}</span><div><h4>{item.title}</h4><p>{item.text}</p></div></li>)}</ol>;
 }
@@ -35,6 +43,10 @@ export default function ContentBlocks({ blocks }) {
         return <ol className="numbered-principles" key={key}>{block.items.map((item, i) => <li key={i}><span>{String(i + 1).padStart(2, "0")}</span><p>{item}</p></li>)}</ol>;
       case "prompt":
         return <div className="single-prompt" key={key}><span>{block.label || "Prompt"}</span><p>{block.text}</p></div>;
+      case "quote":
+        return <SourceQuote key={key} block={block}/>;
+      case "source-list":
+        return <SourceList key={key} items={block.items}/>;
       case "prompt-set":
         return <PromptSet key={key} items={block.items}/>;
       case "table":
